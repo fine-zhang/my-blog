@@ -1,0 +1,80 @@
+.article-wrap {
+    border: 1px solid #999;
+
+
+    .article-item {
+        width: 80%;
+        margin: 1rem auto 4rem;
+        border: 1px solid #999;
+
+        .article-title {
+            margin: 2rem 0 1rem;
+            font-size: 1.8rem;
+            text-align: center;
+            padding: .2em;
+        }
+
+        .info-box {
+            margin: .2rem auto 0;
+            display: flex;
+            width: 60%;
+            ;
+            justify-content: space-evenly;
+
+            .info-item {
+                color: #999;
+                font-size: .8rem;
+                text-align: center;
+                margin-right: 1rem;
+
+                img {
+                    vertical-align: middle;
+                    width: .8rem;
+                    height: .8rem;
+                    margin-right: .2rem;
+                }
+            }
+        }
+        .img-box{
+            width: 80%;
+            margin: 2rem auto 0;
+            img{
+                width: 100%;
+            }
+        }
+        .article-content{
+            margin-top: 1rem;
+            padding: 1em 3em;
+            height: 12rem;
+           overflow: hidden;
+           div{
+            height: 10rem;
+            overflow: hidden;
+            p{
+                font-size: 1.2rem;
+            line-height: 2rem;
+            }
+         } 
+        }
+        .jump{
+            box-sizing: border-box;
+            width: 5em;
+            height: 3em;
+            text-align: center;
+            line-height: 3em;
+            border: 1px solid black;
+            margin: 1em auto;
+            cursor: pointer;
+        }
+        .praise{
+            box-sizing: border-box;
+            width: 5em;
+            height: 3em;
+            text-align: center;
+            line-height: 3em;
+            border: 1px solid black;
+            margin: 1em auto;
+            cursor: pointer;
+        }
+    }
+}

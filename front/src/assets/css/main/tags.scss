@@ -1,0 +1,28 @@
+.tags {
+    border-bottom: 1px solid #999;
+    width: 18rem;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    @media screen and (max-width: 1240px) {
+        width: 10rem;
+        height: 14rem;
+    }
+    @media screen and (max-width: 720px) {
+        display:none
+    }
+        .tag-item{
+            font-size: 1rem;
+            text-align: center;
+            line-height: 2rem;
+            height: 2rem;
+            padding: .3rem 1rem;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+    
+}

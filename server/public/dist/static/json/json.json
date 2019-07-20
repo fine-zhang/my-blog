@@ -1,0 +1,11 @@
+{
+    "images":[{
+        "src":"/static/slider/键盘.jpg"
+    },
+    {
+        "src":"/static/slider/篮球.jpg"
+    },
+    {
+        "src":"/static/slider/电影.jpg"
+    }]
+}

@@ -1,0 +1,43 @@
+.article-list {
+    margin: 1rem auto;
+    width: 18rem;
+    // height: 10rem;
+    border-bottom: 1px solid #999;
+    @media screen and (max-width: 1240px) {
+        width: 10rem;
+    }
+    @media screen and (max-width: 720px) {
+        display:none
+    }
+
+    .article-item {
+        width: 100%;
+        box-sizing: border-box;
+        padding: .1em;
+        display: flex;
+        cursor: pointer;
+        
+
+        .num {
+            flex: 1;
+            font-size: .9rem;
+        }
+
+        .title {
+            flex: 6;
+            font-size: .9rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .date {
+            flex: 3;
+            font-size: .9rem;
+            color: #999;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: clip;
+        }
+    }
+}
